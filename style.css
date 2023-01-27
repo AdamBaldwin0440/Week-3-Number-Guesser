@@ -1,0 +1,32 @@
+Body{
+    display:flex; flex-direction: column; align-items: center;
+}
+#Title{
+    color:coral;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: beige;
+    border: 6px double burlywood;
+    width: fit-content;
+}
+#Instruct{
+    color: coral;
+    font-size: 25px;
+    background-color: beige;
+    border: 6px double burlywood;
+    width: 50%; flex-wrap: wrap;
+    text-align: center;
+}
+#GuessBox{
+    width: 100px; height: 25px;
+}
+#SubGuess{
+    width: 150px; height: 40px;
+    color: coral;
+    border: 6px double burlywood;
+}
+#Message{
+background-color: beige;
+width: fit-content;
+text-align: center;
+}

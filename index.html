@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Higher or Lower</title>
+</head>
+<body>
+<style>
+    body{
+        background-image: url(./background.png);
+    
+    }
+</style>
+<h1 id="Title">Guess the Number</h1>
+<p id="Instruct"> The game will generate a random number between 1 and 100. Take a guess what that number is and type it into the box below and click "submit"
+    The game will let you know if your guess is too high or too low. Try to win in as few guesses as possible!
+</p> 
+<input type="number" id="GuessBox" min="1" max="100" placeholder="0">
+<button id="SubGuess">Submit Guess</button>
+<h3 id="Message"></h3>
+
+<script src="./script.js"></script>    
+</body>
+</html>
